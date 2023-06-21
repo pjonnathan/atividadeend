@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <form id="formulario" method="get" action="index.html">
+        <h1>Cadastre-se</h1>
+        <p>É rápido e fácil</p>
+        <hr>
+        <div>
+            <label for="inome"></label>
+            <input type="text" name="nome" id="inome" placeholder="Nome">
+            <label for="isobreno"></label>
+            <input type="text" name="sobrenome" id="isobreno" placeholder="Sobrenome">
+        </div>
+        <div>
+            <input type="email" name="email" id="iemail" placeholder="Email">
+        </div>
+        <div>
+            <input type="password" name="senha" id="isenha" placeholder="Senha">
+        </div>
+        <div>
+            <label for="nasc">Data de Nascimento</label><br>
+            <label for="dia">Dia</label>
+            <select name="dia" id="dia" >
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>    
+            </select>
+            <label for="mes">Mês</label>
+            <select name="mes" id="mes">
+                <option value="Jar">Jar</option>
+                <option value="Fev">Fev</option>
+                <option value="Mar">Mar</option>
+                <option value="Abr">Abr</option>
+                <option value="Mai">Mai</option>
+            </select>
+            <label for="ano">Ano</label>
+            <select name="ano" id="ano">
+                <option value="1999">1999</option>
+                <option value="2000">2000</option>
+                <option value="2001">2001</option>
+                <option value="2002">2002</option>
+                <option value="2003">2003</option>
+            </select>
+        </div>
+        <div>
+            <label for="ger">Gênero</label><br>
+            <label for="masc">Masculino</label>
+            <input type="radio" name="sexo" id="masc" value="Masculino">
+            <label for="femi">Feminino</label>
+            <input type="radio" name="sexo" id="femi" value="Feminino">
+            <label for="perso">Personalizado</label>
+            <input type="radio" name="sexo" id="perso" value="Personalizado">
+        </div>
+        <p>Ao clicar em Cadastreśe, você concorda com nossos termos, ploticas de Dados e Políticas de Cookies. Você poderá reber notificaçẽos por SMS e cancelar isso quando quiser.</p>
+        <input type="submit" value="Cadastre-se">
+    </form>
+</body>
+</html>
