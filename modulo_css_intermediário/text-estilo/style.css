@@ -1,0 +1,26 @@
+.text-centro {
+    text-align: center;
+}
+.text-esquerda {
+    text-align: left;
+}
+.text-direita {
+    text-align: right;
+}
+.text-justificado {
+    text-align: justify;
+}
+.text-maiusculo {
+    text-transform: uppercase;
+}
+.text-minusculo {
+    text-transform: lowercase;
+}
+.text-cabitalizado {
+    text-transform: capitalize;
+}
+
+.fundo-alinhado  {
+    padding: 20px;
+    background-color: aquamarine;
+}
