@@ -19,8 +19,17 @@
 .text-cabitalizado {
     text-transform: capitalize;
 }
+.txt-unerline {
+    text-decoration: underline;
+}
+.txt-linethrough {
+    text-decoration: line-through;
+}
+.txt-none {
+    text-decoration: none;
+}
 
 .fundo-alinhado  {
     padding: 20px;
-    background-color: aquamarine;
+    background-color: rgb(104, 201, 169);
 }
