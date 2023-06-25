@@ -28,8 +28,14 @@
 .txt-none {
     text-decoration: none;
 }
-
+.text-lineheight{
+    line-height: 50px;
+}
+.text-sombra {
+    line-height: 40px;
+    text-shadow: 10px 10px 1px black;
+}
 .fundo-alinhado  {
     padding: 20px;
-    background-color: rgb(104, 201, 169);
+    background-color: aquamarine;
 }
