@@ -33,7 +33,7 @@
 }
 .text-sombra {
     line-height: 40px;
-    text-shadow: 10px 10px 1px black;
+    text-shadow: 10px 10linepx 1px black;
 }
 .fundo-alinhado  {
     padding: 20px;
