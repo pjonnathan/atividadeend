@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@700&display=swap');
+@font-face {
+    font-family: "wilk";
+    src: url(./font/Wilkey.ttf), url(./font/Wilkey.otf);
+}
 
 .font-internas {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -8,4 +12,8 @@
 .font-externas {
     font-family: 'Belanosima', sans-serif;
     font-size: 24px;
+}
+
+.font-face{
+    font-family: "wilk", Helvetica, sans-serif;
 }
