@@ -1,0 +1,16 @@
+a {
+    color: blue;
+}
+
+a:visited {
+    color: aqua;
+}
+
+a:active {
+    color: red;
+}
+
+.hove:hover {
+    background-color: yellow;
+    color: black;
+}
