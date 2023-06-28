@@ -1,0 +1,24 @@
+.list-type {
+    list-style-type: square;
+}
+
+#img-avião{
+    list-style: square inside url('img/aviao.png');
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+}
+
+#img-carro {
+    list-style: square inside url('img/carro.png');
+    border: 1px solid red;
+    padding: 10px;
+    margin: 10px;
+}
+
+#img-cmoto {
+    list-style: square inside url('img/ciclomotor.png');
+    padding: 10px;
+    border: 1px solid red;
+    margin: 10px;
+}
