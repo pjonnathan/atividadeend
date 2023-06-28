@@ -1,0 +1,35 @@
+.bg {
+    height: 400px;
+    height: 300px;
+}
+
+.bg-img {
+    background-image: url('end.jpeg');
+    width: 318px;
+    height: 159px;
+}
+
+.bg-rep {
+    background-image: url('end.jpeg');
+    background-repeat: no-repeat;
+}
+
+.bg-size {
+    background-image: url('end.jpeg');
+    background-size: cover;
+}
+
+.bg-att {
+    background-image: url('end.jpeg');
+    background-attachment: fixed;
+}
+
+.bg-pos {
+    background-image: url('end.jpeg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.bg-com {
+    background: red url('end.jpeg') no-repeat right top;
+}
