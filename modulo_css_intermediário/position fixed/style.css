@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+}
+header {
+    background-color: aqua;
+    position: fixed;
+    width: 100%;
+    padding: 18px;
+}
+
+main {
+    padding: 60px;
+    height: 1024px;
+}
+
+main h2 {
+    color: bisque;
+    background-color: black;
+}

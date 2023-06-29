@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+.bloco li{
+    background-color: aqua;
+}
+
+.inline li{
+    background-color: aqua;
+    display: inline;
+}
+
+.inline-block li{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.none {
+    display: none;
+}
