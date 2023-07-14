@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        
+        {
+            "type": "chrome",
+            "name": "http:///home/pjonnathan/Área de Trabalho/atividade.js",
+            "request": "launch",
+            "url": "http:///home/pjonnathan/Área de Trabalho/atividade.js"
+        }
+    ]
+}

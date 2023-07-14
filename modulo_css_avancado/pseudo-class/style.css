@@ -1,0 +1,9 @@
+p:first-child{
+    color: aquamarine;
+}
+p:last-child{
+    color: red;
+}
+p:only-child{
+    color: blue;
+}
