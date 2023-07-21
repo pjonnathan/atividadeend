@@ -1,0 +1,11 @@
+.conteine {
+    display: flex;
+    width: 400px;
+    background-color: aqua;
+    border: 1px solid red;
+}
+
+.item {
+    border: 1px solid aquamarine;
+    width: 20px;
+}
