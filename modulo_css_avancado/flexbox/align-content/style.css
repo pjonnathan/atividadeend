@@ -1,0 +1,11 @@
+.space-between {
+    align-content: space-between;
+}
+
+.space-around {
+    align-content: space-around;
+}
+
+.space-evenly {
+    align-content: space-evenly;
+}

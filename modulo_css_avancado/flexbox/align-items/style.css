@@ -9,3 +9,7 @@
 .center {
     align-items: center;
 }
+
+.stretch {
+    align-items: stretch;
+}
