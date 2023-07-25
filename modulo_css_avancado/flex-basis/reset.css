@@ -1,0 +1,10 @@
+.conteiner {
+    display: flex;
+    background-color: aqua;
+    width: 400px;
+}
+
+.item {
+    margin: 5px;
+    background-color: white;
+}

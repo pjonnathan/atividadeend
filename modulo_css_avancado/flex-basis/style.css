@@ -1,0 +1,15 @@
+.grow-0 {
+    flex-grow: 0;
+}
+.grow-1 {
+    flex-grow: 1;
+}
+.basis-100px {
+    flex-basis: 100px;
+}
+.basis-200px {
+    flex-basis: 200px;
+}
+.basis-300px {
+    flex-basis: 300px;
+}
