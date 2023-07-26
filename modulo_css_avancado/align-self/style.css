@@ -1,0 +1,11 @@
+.flex-end.end .item2 {
+    align-self: flex-end;
+}
+
+.flex-start.start .item3 {
+    align-self: flex-start;
+}
+
+.flex-center.center .item1 {
+    align-self: center;
+}
