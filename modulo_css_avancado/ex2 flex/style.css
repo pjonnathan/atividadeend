@@ -1,0 +1,36 @@
+.conteiner {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    margin-left: 15px;
+}
+
+@media (max-width:450px){
+    .conteiner {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav ul{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+}
+
