@@ -1,0 +1,12 @@
+.conteiner {
+    display: flex;
+    background-color: aquamarine;
+    width: 500px;
+    height: 200px;
+}
+
+.item {
+    background-color: white;
+    margin: 5px;
+    width: 100px;
+}
