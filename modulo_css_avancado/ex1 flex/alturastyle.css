@@ -1,0 +1,21 @@
+.corpo {
+    width: 1020px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex img {
+    width: 200px;
+    height: 200px;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 200px;
+    margin: 1em;
+}
+
+.flex a {
+    margin-top: auto;
+}
