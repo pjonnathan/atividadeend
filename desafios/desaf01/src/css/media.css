@@ -1,0 +1,16 @@
+@media (max-width: 750px){
+    .container{
+        display: block;
+    }
+
+    .logo {
+        justify-content: center;
+    }
+
+    nav ul{
+        display: block;
+    }
+    ul li{
+        text-align: center;
+    }
+}
