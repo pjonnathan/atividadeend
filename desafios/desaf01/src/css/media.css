@@ -1,6 +1,6 @@
-@media (max-width: 750px){
+@media (max-width: 792px){
     .container{
-        display: block;
+        flex-direction: column;
     }
 
     .logo {
@@ -8,16 +8,18 @@
     }
 
     nav ul{
-        display: block;
+        flex-direction: column;
     }
     ul li{
         text-align: center;
+        margin-top: 30px;
     }
 
     .imagens {
-        display: block;
+        flex-direction: column;
     }
     .imagens div{
         text-align: center;
+        margin-top: 10px;
     }
 }

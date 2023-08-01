@@ -25,11 +25,13 @@ nav ul {
     display: flex;
 }
 
-ul li {
-    padding: 30px;
+ul li a{
+    padding: 15px;
 }
 
-
+ul li {
+    margin-left: 15px;
+}
 .cadastro {
     color: white;
     padding: 10px;
@@ -40,13 +42,9 @@ ul li {
     border-radius: 10px;
 }
 
-.sobre {
-    color: white;
-    padding: 10px;
-    width: 127px;
-    height: 39px;
-    flex-shrink: 0;
+nav ul li a:hover {
     background-color: #5BC241;
+    color: #FFF;
 }
 
 .imagens{
