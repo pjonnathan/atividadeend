@@ -14,12 +14,4 @@
         text-align: center;
         margin-top: 30px;
     }
-
-    .imagens {
-        flex-direction: column;
-    }
-    .imagens div{
-        text-align: center;
-        margin-top: 10px;
-    }
 }
