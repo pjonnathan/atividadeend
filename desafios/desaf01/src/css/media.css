@@ -13,4 +13,11 @@
     ul li{
         text-align: center;
     }
+
+    .imagens {
+        display: block;
+    }
+    .imagens div{
+        text-align: center;
+    }
 }
