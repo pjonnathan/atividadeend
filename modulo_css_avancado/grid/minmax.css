@@ -1,0 +1,7 @@
+.container div{
+    background-color: aqua;
+    border: 1px solid black;
+}
+.container {
+    grid-template-columns: minmax(100px 500px) repeat(2, minmax(100px, 300px)) minmax(auto, auto);
+}
