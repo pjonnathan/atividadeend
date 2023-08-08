@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    background-color: slategray;
+    grid-template: 
+    "secao-principal propaganda"
+    "secao-principal sugestao";
+
+    grid-template-columns: 1fr 270px;
+    grid-template-rows: 56px 1fr;
+}
+
+.secao-principal {
+    grid-area: secao-principal;
+    background-color: aqua;
+}
+
+.propaganda {
+    grid-area: propaganda;
+    background-color: gray;
+}
+
+.sugestao {
+    grid-area: sugestao;
+    background-color: azure;
+}
