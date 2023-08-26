@@ -1,5 +1,5 @@
 .container {
-    width: 100%;
+    width: 940px;
     display: grid;
     background-color: slategray;
     grid-template: 
@@ -36,6 +36,7 @@
 }
 
 .item {
+    border: 1px solid black;
     width: 267px;
     height: 72px;
     display: flex;

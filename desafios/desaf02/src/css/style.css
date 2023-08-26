@@ -1,0 +1,67 @@
+body {
+    height: 700px;
+    background:rgb(74, 74, 168) url('../img/bg-desktop.svg') center center no-repeat;
+}
+
+.cabecalho .logo img {
+    padding: 30px;
+}
+
+.main {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main .information {
+    margin-top: 50px;
+    width: 400px;
+}
+
+.main .information h2 {
+    color: white;
+    font-size: 40px;
+}
+
+.main .information p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.main .information input {
+    font-size: 18px;
+    margin-top: 40px;
+    background-color: white;
+    color: blueviolet;
+    padding: 15px 60px;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+.main .information input:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+.rodape {
+    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    padding-right: 100px;
+}
+
+.rodape i{
+    padding: 9px;
+    font-size: 15px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 360px;
+    transition: 0.8s;
+}
+
+.rodape i:hover {
+    color: white;
+    background-color: blueviolet;
+}
