@@ -5,5 +5,7 @@ console.log(array)
 
 let multdimencional = [
     ["Nome","idade","lugar"],
-    ["caio", 12, "frança"],
+    ["caio", 12, "frança"]
 ]
+
+console.log(multdimencional[1][0])
