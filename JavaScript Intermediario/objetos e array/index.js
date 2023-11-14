@@ -11,3 +11,5 @@ let videoGame2 = {
 }
 
 let videoGames = [videoGame, videoGame2]
+
+console.log(videoGames[1].nome)
