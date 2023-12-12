@@ -22,3 +22,9 @@ async function iniciarCafé() {
     let coloca = await colocarNaXicara()
 
 }
+
+try{
+
+}catch(err){
+    return err
+}
