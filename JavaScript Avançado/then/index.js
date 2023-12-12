@@ -14,4 +14,11 @@ function colocarNaXicara() {
     console.log('Colocou na xicara')
 }
 
-fazerCafe(true, true).then(colocarNaXicara)
+fazerCafe(true, true)
+    .then(colocarNaXicara)
+
+async function iniciarCafé() {
+    let colocarNaXicara = await fazerCafe()
+    let coloca = await colocarNaXicara()
+
+}
